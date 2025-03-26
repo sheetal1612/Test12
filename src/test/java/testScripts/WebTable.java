@@ -22,8 +22,7 @@ public class WebTable {
 	  //select a book whose price is 2000
 	  
 	  WebElement eleBook= driver.findElement(By.xpath("//td[contains(text(),'2000')]//preceding-sibling::td[3]"));
-	  System.out.append("Book Name is ");
-	  System.out.append(eleBook.getText());
+	  System.out.append("Book Name is "+eleBook.getText());
 	  
   }
 }
