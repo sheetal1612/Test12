@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T14:08:06 IST" name="Default suite" finished-at="2025-03-26T14:08:10 IST" duration-ms="3529">
+  <suite started-at="2025-03-27T17:00:08 IST" name="Default suite" finished-at="2025-03-27T17:00:15 IST" duration-ms="6983">
     <groups>
     </groups>
-    <test started-at="2025-03-26T14:08:06 IST" name="Default test" finished-at="2025-03-26T14:08:10 IST" duration-ms="3529">
-      <class name="testScripts.RelativeLocators">
-        <test-method signature="f()[pri:0, instance:testScripts.RelativeLocators@791f145a]" started-at="2025-03-26T14:08:06 IST" name="f" finished-at="2025-03-26T14:08:10 IST" duration-ms="3478" status="PASS">
+    <test started-at="2025-03-27T17:00:08 IST" name="Default test" finished-at="2025-03-27T17:00:15 IST" duration-ms="6983">
+      <class name="testScripts.SelectDropDown">
+        <test-method signature="f()[pri:0, instance:testScripts.SelectDropDown@5677323c]" started-at="2025-03-27T17:00:08 IST" name="f" finished-at="2025-03-27T17:00:15 IST" duration-ms="6876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testScripts.RelativeLocators -->
+      </class> <!-- testScripts.SelectDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
