@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
-public class GooglePageTest {
+public class LoginPageTest {
   @Test
   public void seleniumSearch() {
 //	  ChromeOptions cp=new ChromeOptions();
@@ -39,3 +39,5 @@ public class GooglePageTest {
 	// driver.close();
   }
 }
+
+
