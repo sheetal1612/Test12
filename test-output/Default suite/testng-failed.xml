@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RemoteWebDriverSample.RemoteLoginPageTest">
+      <class name="testScripts.devtools">
         <methods>
-          <include name="seleniumSearch"/>
+          <include name="setup"/>
+          <include name="setGroLocationTest"/>
+          <include name="deviceModeTest"/>
         </methods>
-      </class> <!-- RemoteWebDriverSample.RemoteLoginPageTest -->
+      </class> <!-- testScripts.devtools -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
